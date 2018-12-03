@@ -15,7 +15,7 @@
 
 <body>
 	
-	<header>
+	<header id="header">
 
         <div class="c-nav-hamburger" role="button" id="hamburger-nav-btn" aria-expanded="false" aria-controls="nav-list" tabindex="0">
 	
@@ -74,6 +74,7 @@
         let navOpen = false;
 
         function toggleNav(focusOnEl) {
+            console.log(hamburgerNavBtn);
 
             nav.classList.toggle('c-nav--active');
             header.classList.toggle('c-header--nav-active');

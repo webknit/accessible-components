@@ -1,0 +1,22 @@
+a {
+	color: $col-link;
+	cursor: pointer;
+	text-decoration:none;
+	&:visited {
+
+	}
+	&:hover {
+		color: $col-link-hover;
+	}
+	&:active {
+		
+	}
+	&:focus {
+		
+	}
+}
+
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a,
+.e-h1 a, .e-h2 a, .e-h3 a, .e-h4 a, .e-h5 a, .e-h6 a {
+	color: $col-header;
+}

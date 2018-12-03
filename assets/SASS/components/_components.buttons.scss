@@ -1,0 +1,27 @@
+button,
+.c-btn {
+	background: $col-link;
+	border-radius: 0.188rem;
+    color: $col-white;
+    display: inline-block;
+    float: left;
+    margin-bottom: 0.625rem;
+    outline: 0 none;
+    padding: 0.438rem 0.938rem;
+    width: auto;
+    &:hover {
+    	background: $col-link-hover;
+		color: #ffffff;
+		text-decoration: none;
+	}
+	&:active {
+		opacity:0.9;
+	}
+}
+
+.c-tbn-full-width {
+	padding-left: 0 !important;
+	padding-right: 0 !important;
+	text-align: center; 
+	width: 100%;
+}

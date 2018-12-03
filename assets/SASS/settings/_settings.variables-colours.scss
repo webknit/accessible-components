@@ -1,0 +1,18 @@
+// http://sass-variable-generator.webknit.co.uk/
+
+// Colours 
+$col-black: #000000;
+$col-white: #FFFFFF;
+
+$col-mine-shaft: #333333;
+$col-cod-gray: #141414;
+$col-red-damask: #d8544b;
+$col-sunglo: #e2766f;
+
+// Element colours 
+$col-base: $col-mine-shaft;
+$col-header: $col-cod-gray;
+$col-link: $col-red-damask;
+$col-link-hover: $col-sunglo;
+
+$col-blockquote: $col-red-damask;

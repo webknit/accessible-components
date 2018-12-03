@@ -1,0 +1,11 @@
+/assets/node_modules
+/assets/node_modules/*
+
+/assets/.sass-cache
+/assets/.sass-cache/*
+/web/scripts/*
+/web/css/*
+
+/assets/package-lock.json
+
+/web/img/svgsprite/
